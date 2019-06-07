@@ -1,13 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Routes from './routes';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Routes />
-      {/* <header className="App-header">
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -20,7 +18,7 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
-      </header> */}
+      </header>
     </div>
   );
 }
